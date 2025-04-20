@@ -1,0 +1,200 @@
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: #E76F51;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.profile-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #EFF1F3;
+    padding: 32px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 1050px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border: 3px solid #FED766;
+}
+
+.profile-info {
+    flex: 1;
+    text-align: left;
+}
+
+.nickname {
+    font-size: 1.8rem;
+    color: #4E4B4F;
+    margin-bottom: 8px;
+}
+
+.stats {
+    font-size: 1rem;
+    color: #4E4B4F;
+    margin-bottom: 4px;
+}
+
+.xp-bar-container {
+    width: 100%;
+    height: 20px;
+    background-color: #CCC;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 8px;
+    position: relative;
+}
+
+.xp-bar {
+    height: 100%;
+    background-color: #FED766;
+    transition: width 0.3s ease;
+}
+
+.xp-text {
+    font-size: 0.9rem;
+    color: #4E4B4F;
+    margin-top: 8px;
+}
+
+.reviews-section {
+    text-align: left;
+}
+
+.reviews-section h2 {
+    font-size: 1.5rem;
+    color: #4E4B4F;
+    margin-bottom: 16px;
+}
+
+.user-review {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    background-color: #FFF;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.game-miniature {
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.review-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 12px;
+}
+
+.review-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.review-content button {
+
+}
+
+.game-title {
+    font-size: 1.2rem;
+    color: #4E4B4F;
+    margin-bottom: 4px;
+}
+
+.review-rating {
+    font-size: 1rem;
+    color: #FED766;
+    margin-bottom: 4px;
+}
+
+.review-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.page-button {
+    padding: 8px 12px;
+    font-size: 1rem;
+    color: #EFF1F3;
+    background-color: #4E4B4F;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.page-button:hover {
+    background-color: #FED766;
+    color: #4E4B4F;
+    transform: scale(1.05);
+}
+
+.page-button.active {
+    background-color: #FED766;
+    color: #4E4B4F;
+}
+
+.delete-review-button {
+    padding: 8px 12px;
+    font-size: 1rem;
+    background-color: #e76f51;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.delete-review-button:hover {
+    background-color: #c2503b;
+    transform: scale(1.05);
+}
+
+.edit-username-button {
+    margin-left: 10px;
+    padding: 6px 12px;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #e76f51;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.edit-username-button:hover {
+    background-color: #c2503b;
+    transform: scale(1.05);
+}

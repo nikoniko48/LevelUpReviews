@@ -1,0 +1,88 @@
+.register-page {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: #E76F51;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.register-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    background-color: #EFF1F3;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.register-title {
+    font-size: 1.8rem;
+    color: #4E4B4F;
+    margin-bottom: 16px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-label {
+    font-size: 1rem;
+    color: #4E4B4F;
+    text-align: left;
+    margin-bottom: 4px;
+}
+
+.form-input {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #4E4B4F;
+    border-radius: 8px;
+    outline: none;
+}
+
+.form-input:focus {
+    border-color: #FED766;
+    box-shadow: 0px 0px 4px rgba(254, 215, 102, 0.8);
+}
+
+.register-button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #EFF1F3;
+    background-color: #4E4B4F;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.register-button:hover {
+    background-color: #FED766;
+    color: #4E4B4F;
+    transform: scale(1.05);
+}
+
+.register-footer {
+    margin-top: 16px;
+    font-size: 0.9rem;
+    color: #4E4B4F;
+}
+
+.login-link {
+    color: #FED766;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}

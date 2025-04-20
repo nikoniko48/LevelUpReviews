@@ -1,0 +1,256 @@
+.game-details-page {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: #E76F51;
+    justify-content: space-between;
+}
+
+.game-details-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #EFF1F3;
+    padding: 32px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 900px;
+    justify-content: flex-start;
+}
+
+.game-title {
+    font-size: 2rem;
+    color: #4E4B4F;
+    margin-bottom: 16px;
+}
+
+.game-info {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    margin-bottom: 32px;
+}
+
+.game-image {
+    width: 200px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.game-details {
+    flex: 1;
+    text-align: left;
+}
+
+.game-rating {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FED766;
+    margin-bottom: 8px;
+}
+
+.game-description {
+    font-size: 1rem;
+    color: #4E4B4F;
+    line-height: 1.5;
+}
+
+.reviews-section {
+    text-align: left;
+}
+
+.reviews-section h2 {
+    font-size: 1.5rem;
+    color: #4E4B4F;
+    margin-bottom: 16px;
+}
+
+.review {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    padding: 12px;
+    padding-right: 30px;
+    background-color: #FFF;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.review-user {
+    font-weight: bold;
+    color: #4E4B4F;
+}
+
+.review-text {
+    color: #555;
+    margin-top: 4px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.page-button {
+    padding: 8px 12px;
+    font-size: 1rem;
+    color: #EFF1F3;
+    background-color: #4E4B4F;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.page-button:hover {
+    background-color: #FED766;
+    color: #4E4B4F;
+    transform: scale(1.05);
+}
+
+.page-button.active {
+    background-color: #FED766;
+    color: #4E4B4F;
+}
+
+.add-review-section {
+    margin-top: 20px;
+}
+
+.review-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-review-button {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #E76F51;
+    background-color: #FED766;
+    border: 2px solid #EFF1F3;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.submit-review-button:hover {
+    background-color: #e76F51;
+    color: #625F63;
+    border-color: #625F63;
+    transform: scale(1.05);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.submit-review-button:active {
+    transform: scale(0.95);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.review-user-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.review-rating-date {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-review-section {
+    margin-top: 20px;
+    padding: 16px;
+    background-color: #FFF;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.add-review-section h3 {
+    font-size: 1.5rem;
+    color: #4E4B4F;
+    margin-bottom: 16px;
+}
+
+.review-textarea {
+    width: 96%;
+    padding: 12px;
+    margin-bottom: 16px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #EFF1F3;
+    color: #4E4B4F;
+    resize: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review-rating-input {
+    width: 96.5%;
+    padding: 10px;
+    margin-bottom: 16px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #EFF1F3;
+    color: #4E4B4F;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.submit-review-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #EFF1F3;
+    background-color: #E76F51;
+    border: 2px solid #EFF1F3;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.submit-review-button:hover {
+    background-color: #FED766;
+    color: #4E4B4F;
+    border-color: #FED766;
+    transform: scale(1.05);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.submit-review-button:active {
+    transform: scale(0.95);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.delete-review-button {
+    padding: 8px 12px;
+    font-size: 1rem;
+    background-color: #e76f51;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-review-button:hover {
+    background-color: #c2503b;
+}
+
